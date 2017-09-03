@@ -14,8 +14,10 @@ select now();
 ## 8. Managing Time Related Configuration
 ### 2 Configuration Options
 ```
-alter database
-alter role
+database = alter database
+role = alter role
+session = ser/show pg_settings
+transaction = set local
 ```
 
 
