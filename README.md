@@ -20,4 +20,16 @@ session = ser/show pg_settings
 transaction = set local
 ```
 
-
+Settings
+```
+TimeZone
+DateStyle
+IntervalStyle
+lc_time
+timezone_abbreviations
+log_timezone
+```
+#### 04:27
+```
+set datastyle = sql.dmy;
+```
