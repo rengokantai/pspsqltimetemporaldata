@@ -42,3 +42,8 @@ set datastyle = sql.dmy;
 ```
 select * from pg_timezone_names;
 ```
+update time zone definitions
+```
+--with-system-tzdata
+--with-system-tzdata=/usr/share/zoneinfo
+```
