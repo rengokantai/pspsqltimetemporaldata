@@ -10,7 +10,13 @@ where updated_at < now();
 select now();
 ```
 
-
+## 3. PostgreSQL: Time and Temporal Data
+### 2 Range Types
+```
+select numrange(1,10,'[]');
+select numrange '(1,)';
+select daterange '[today,infinity)';
+```
 ## 8. Managing Time Related Configuration
 ### 2 Configuration Options
 ```
