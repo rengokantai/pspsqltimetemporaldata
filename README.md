@@ -19,6 +19,10 @@ role = alter role
 session = ser/show pg_settings
 transaction = set local
 ```
+```
+set time zone value
+set timezone = value
+```
 
 Settings
 ```
@@ -32,4 +36,9 @@ log_timezone
 #### 04:27
 ```
 set datastyle = sql.dmy;
+```
+### 4 IANA Time Zone Database
+#### 00:52
+```
+select * from pg_timezone_names;
 ```
